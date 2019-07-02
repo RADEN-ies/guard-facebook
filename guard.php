@@ -43,7 +43,7 @@ if($me && $me->id) {
         "fb_api_caller_class" => "IsShieldedSetMutation",
         "access_token" => $token
     )));
-    if($hajar->data->is_shielded_set->is_shielded) echo "$cyan Status ==> $hijau Sukses silahkan cek profile fb kamu";
-    else "GAGAL :( SILAHKAN PERIKSA TOKEN FB KAMU";
+    if($hajar->data->is_shielded_set->is_shielded) echo "$cyan Status ==> $hijau BERHASIL!!! silahkan cek profile fb kamu";
+    else "YAHH..GAGAL :( SILAHKAN PERIKSA KEMBALI TOKEN FB KAMU";
 }
 ?>
